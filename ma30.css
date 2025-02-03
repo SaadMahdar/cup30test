@@ -1,0 +1,214 @@
+* { margin:0% ;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.bgc30{
+    /* background-color:#C2C2C2 ; */
+    background-color:#000 ;
+}
+/* .spaceeve{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.bar{
+    background-color: #111;
+    border-bottom:1px solid #00c5aa;
+}
+.stbody{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Rimg{
+    width: 69%;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    position: relative;
+    border: #ed0000 3px solid;
+    border-radius: 25px;
+    transition: background-size 0.5s ease-in-out;
+}
+.txtliner1{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 34px;
+}
+.Ltxt{
+    width: 30%;
+    background-image: url(5.jpg);
+    background-size: 210%;
+    background-position: center;
+    color: white;
+    position: relative;
+    border: #ffe300 3px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 34px;
+    transition: background-size 0.5s ease-in-out;
+}
+.Rimg:hover{
+    background-size: 110%;
+}
+.Ltxt:hover{
+    background-size: 240%;
+}
+.ndbody{
+    height: 50vh;
+    width: 100%;
+    background-image: url(5.jpg);
+}
+.one{
+    border: 3px solid white;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wan{
+    background-color: #f4302f;
+    transition: 0.5s ease-in-out;
+}
+.two{
+    background-color:#7a01db ;
+    transition: 0.5s ease-in-out;
+}
+.three{
+    background-color:#005de9 ;
+    transition: 0.5s ease-in-out;
+}
+.four{
+    background-color:#00c5aa ;
+    transition: 0.5s ease-in-out;
+}
+.wan:hover{
+    background-image: url(7.png);
+    background-position: center;
+    background-size: contain;
+    border-color: #00c5aa;
+    transform: scale(1.05);
+}
+.two:hover{
+    background-image: url(8.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-color: #ffdd00;
+    transform: scale(1.05);
+}
+.three:hover{
+    background-image: url(8.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-color: #f4302f;
+    transform: scale(1.05);
+}
+.four:hover{
+    background-image: url(7.png);
+    background-position: center;
+    background-size: contain;
+    border-color: #7a01db;
+    transform: scale(1.05);
+}
+.rdbody{
+    height: 75vh;
+    width: 100%;
+    background-image: url(Layer\ 3.jpg);
+    background-size: 200%;
+    border-top: #80f8e8 3px solid;
+}
+.cont1{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont2{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: #00c5aa; */
+}
+.trois{
+    height: 95%;
+    width: 31%;
+    /* background-color: #7a01db; */
+    background-image: url(prince.jpeg);
+    background-size: cover;
+    transition: transform 0.5s;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: #ed0000 3px solid;
+    border-radius: 20px;
+}
+.un{
+    height: 45%;
+    width: 100%;
+    /* background-color: #00c5aa; */
+    background-image: url(barid.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: #ffe300 3px solid;
+    border-radius: 20px;
+}
+
+.deux{
+    height: 45%;
+    width: 100%;
+    /* background-color: #f4302f; */
+    background-image: url(prince2.jpg);
+    /* background-size: cover; */
+    transition: transform 0.5s;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: #00c5aa 3px solid;
+    border-radius: 20px;
+}
+.un:hover{
+    background-image: url(barid1.jpg);
+    transform: scale(1.02);
+}
+.deux:hover{
+    background-image: url(prince1.jpg);
+    transform: scale(1.02);
+}
+.trois:hover{
+    background-image: url(prince3.jpg);
+    transform: scale(1.02);
+}
+.thbody{
+    height: 70vh;
+    width: 100%;
+    background-image: url(Layer\ 3.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.lefttext{
+    width: 60%;
+}
+.footer{
+    border-top:#00c5aa 2px solid;
+    height: 5vh;
+}
